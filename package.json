@@ -1,0 +1,26 @@
+{
+  "name": "mongodb-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biliman/mongodb-crud.git"
+  },
+  "author": "biliman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biliman/mongodb-crud/issues"
+  },
+  "homepage": "https://github.com/biliman/mongodb-crud#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.30",
+    "nodemon": "^1.11.0"
+  }
+}
